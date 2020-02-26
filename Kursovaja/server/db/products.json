@@ -1,0 +1,50 @@
+[
+    {
+      "id_product": 1,
+      "product_name": "Shirt",
+      "product_img": "./img/products/1.jpg",
+      "price": 89
+    },
+    {
+      "id_product": 2,
+      "product_name": "Bag",
+      "product_img": "",
+      "price": 180
+    },
+    {
+      "id_product": 3,
+      "product_name": "Sweatshirt",
+      "product_img": "./img/products/3.jpg",
+      "price": 84
+    },
+    {
+      "id_product": 4,
+      "product_name": "Scarf",
+      "product_img": "./img/products/4.jpg",
+      "price": 49
+    },
+    {
+      "id_product": 5,
+      "product_name": "Bag",
+      "product_img": "./img/products/5.jpg",
+      "price": 157
+    },
+    {
+      "id_product": 6,
+      "product_name": "Shirt",
+      "product_img": "./img/products/6.jpg",
+      "price": 40
+    },
+    {
+      "id_product": 7,
+      "product_name": "Dress",
+      "product_img": "./img/products/7.jpg",
+      "price": 75
+    },
+    {
+      "id_product": 8,
+      "product_name": "Underwear",
+      "product_img": "./img/products/8.jpg",
+      "price": 69
+    }
+  ]

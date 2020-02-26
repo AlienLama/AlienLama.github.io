@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Brand</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/less_style.css">
+    <link rel="shortcut icon" href="img/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" integrity="sha256-PHcOkPmOshsMBC+vtJdVr5Mwb7r0LkSVJPlPrp/IMpU=" crossorigin="anonymous" />
+    <script src="https://kit.fontawesome.com/fcfc1444bd.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="app">
+    <header class="header">
+        <div class="container header-flex">
+            <div class="header__left">
+                <a href="index.html" class="logo"><img class="logo__img" src="img/logo.png" alt="logo">BRAN <span>D</span></a>
+                
+                <filter-el></filter-el>
+            </div>
+
+            <div class="header__right">
+                <a href="pay.html">
+                    <img src="img/shop.svg" alt="card2" class="card2">
+                </a>
+                <cart ref="cart"></cart>
+            </div>
+
+        </div>
+    </header>
+
+    <header class="header-menu">
+        <div class="container">
+            <nav class="menu">
+                <ul class="menu-ul">
+                    <li class="menu-li active"><a href="index.html" class="menu-link">Home</a></li>
+                    <li class="menu-li">
+                        <a href="" class="menu-link">Man</a>
+                        <div class="drop">
+                            <div class="drop__flex">
+                                <h3 class="drop-h3">Women</h3>
+                                <ul class="drop__ul">
+                                    <li><a href="" class="drop__link">Dresses</a></li>
+                                    <li><a href="" class="drop__link">Tops</a></li>
+                                    <li><a href="" class="drop__link">Sweaters/Knits</a></li>
+                                    <li><a href="" class="drop__link">Jackets/Coats</a></li>
+                                    <li><a href="" class="drop__link">Blazers</a></li>
+                                    <li><a href="" class="drop__link">Denim</a></li>
+                                    <li><a href="" class="drop__link">Leggings/Pants</a></li>
+                                    <li><a href="" class="drop__link">Skirts/Shorts</a></li>
+                                    <li><a href="" class="drop__link">Accessories </a></li>
+                                </ul>
+                            </div>
+                            <div class="drop__flex">
+                                <h3 class="drop-h3">Women</h3>
+                                <ul class="drop__ul">
+                                    <li><a href="" class="drop__link">Dresses</a></li>
+                                    <li><a href="" class="drop__link">Tops</a></li>
+                                    <li><a href="" class="drop__link">Sweaters/Knits</a></li>
+                                    <li><a href="" class="drop__link">Jackets/Coats</a></li>
+                                    <li><a href="" class="drop__link">Blazers</a></li>
+                                    <li><a href="" class="drop__link">Denim</a></li>
+                                    <li><a href="" class="drop__link">Leggings/Pants</a></li>
+                                    <li><a href="" class="drop__link">Skirts/Shorts</a></li>
+                                    <li><a href="" class="drop__link">Accessories </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="menu-li">
+                        <a href="" class="menu-link">Women</a>
+                        <div class="drop">
+                            <div class="drop__flex">
+                                <h3 class="drop-h3">Women</h3>
+                                <ul class="drop__ul">
+                                    <li><a href="" class="drop__link">Dresses</a></li>
+                                    <li><a href="" class="drop__link">Tops</a></li>
+                                    <li><a href="" class="drop__link">Sweaters/Knits</a></li>
+                                    <li><a href="" class="drop__link">Jackets/Coats</a></li>
+                                    <li><a href="" class="drop__link">Blazers</a></li>
+                                    <li><a href="" class="drop__link">Denim</a></li>
+                                    <li><a href="" class="drop__link">Leggings/Pants</a></li>
+                                    <li><a href="" class="drop__link">Skirts/Shorts</a></li>
+                                    <li><a href="" class="drop__link">Accessories </a></li>
+                                </ul>
+                            </div>
+                            <div class="drop__flex">
+                                <h3 class="drop-h3">Women</h3>
+                                <ul class="drop__ul">
+                                    <li><a href="" class="drop__link">Dresses</a></li>
+                                    <li><a href="" class="drop__link">Tops</a></li>
+                                    <li><a href="" class="drop__link">Sweaters/Knits</a></li>
+                                    <li><a href="" class="drop__link">Jackets/Coats</a></li>
+                                    <li><a href="" class="drop__link">Blazers</a></li>
+                                    <li><a href="" class="drop__link">Denim</a></li>
+                                    <li><a href="" class="drop__link">Leggings/Pants</a></li>
+                                    <li><a href="" class="drop__link">Skirts/Shorts</a></li>
+                                    <li><a href="" class="drop__link">Accessories </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="menu-li"><a href="" class="menu-link">Kids</a></li>
+                    <li class="menu-li"><a href="" class="menu-link drop__last">accessories</a></li>
+                    <li class="menu-li"><a href="" class="menu-link drop__last">Featured</a></li>
+                    <li class="menu-li">
+                        <a href="product.html" class="menu-link">Hot Deals</a>
+                        <div class="drop drop__last">
+                            <div class="drop__flex">
+                                <h3 class="drop-h3">Women</h3>
+                                <ul class="drop__ul">
+                                    <li><a href="" class="drop__link">Dresses</a></li>
+                                    <li><a href="" class="drop__link">Tops</a></li>
+                                    <li><a href="" class="drop__link">Sweaters/Knits</a></li>
+                                    <li><a href="" class="drop__link">Jackets/Coats</a></li>
+                                    <li><a href="" class="drop__link">Blazers</a></li>
+                                    <li><a href="" class="drop__link">Denim</a></li>
+                                    <li><a href="" class="drop__link">Leggings/Pants</a></li>
+                                    <li><a href="" class="drop__link">Skirts/Shorts</a></li>
+                                    <li><a href="" class="drop__link">Accessories </a></li>
+                                </ul>
+                            </div>
+                            <div class="drop__flex">
+                                <h3 class="drop-h3">Women</h3>
+                                <ul class="drop__ul">
+                                    <li><a href="" class="drop__link">Dresses</a></li>
+                                    <li><a href="" class="drop__link">Tops</a></li>
+                                    <li><a href="" class="drop__link">Sweaters/Knits</a></li>
+                                    <li><a href="" class="drop__link">Jackets/Coats</a></li>
+                                    <li><a href="" class="drop__link">Blazers</a></li>
+                                    <li><a href="" class="drop__link">Denim</a></li>
+                                    <li><a href="" class="drop__link">Leggings/Pants</a></li>
+                                    <li><a href="" class="drop__link">Skirts/Shorts</a></li>
+                                    <li><a href="" class="drop__link">Accessories </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <header class="banner_bg">
+        <div class="header-banner animated ">
+            <div class="container">
+                <div class="banner-title">
+                    <h2>THE BRAND</h2>
+                    <h3>OF LUXERIOUS <span>FASHION</span></h3>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="categories">
+        <div class="container categories-flex">
+            <div class="categories__left">
+                <div class="categories_bl">
+                    <img src="img/category/1.jpg" alt="">
+                    <div class="category-name">
+                        <h3 class="animated slideInLeft">hot deal</h3>
+                        <h1 class="animated slideInLeft">for men</h1>
+                    </div>
+                </div>
+                <div class="categories_bl">
+                    <img src="img/category/3.jpg" alt="">
+                    <div class="category-name">
+                        <h3>30% offer</h3>
+                        <h1>women</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="categories__right">
+                <div class="categories_bl">
+                    <img src="img/category/2.jpg" alt="">
+                    <div class="category-name">
+                        <h3>LUXIROUS & trendy</h3>
+                        <h1>ACCESORIES</h1>
+                    </div>
+                </div>
+                <div class="categories_bl">
+                    <img src="img/category/4.jpg" alt="">
+                    <div class="category-name">
+                        <h3>new arrivals</h3>
+                        <h1>for kids</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="featured" id="yakProducts">
+        <div class="container">
+            <div class="section-title">
+                <h1 class="txt-cntr">Featured Items</h1>
+                <h4 class="txt-cntr">Shop for items based on what we featured in this week</h4>
+            </div>
+
+            <products ref="products"></products>
+            
+            <div class="all-products-btn">
+                <a href="product.html" type="button">
+                    Browse All Product
+                    <i class="fas fa-long-arrow-alt-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    </div> <!-- VUE JS APP END --------------------------------------------------------------------->
+    <section class="offer">
+        <div class="container">
+            <div class="offer-bl">
+                <div class="img-bl">
+                    <div class="discount animated slideInRight">
+                        <h1>30% <span>OFFER</span></h1>
+                        <h1>FOR WOMEN</h1>
+                    </div>
+                </div>
+                <div class="description-bl">
+                    <div class="offer-desc-bl">
+                        <i class="fas fa-truck"></i>
+                        <div class="desc">
+                            <div class="title">Free Delivery</div>
+                            <div class="ltl-desc">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</div>
+                        </div>
+                    </div>
+                    <div class="offer-desc-bl">
+                        <i class="fas fa-percent"></i>
+                        <div class="desc">
+                            <div class="title">Sales & discounts</div>
+                            <div class="ltl-desc">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</div>
+                        </div>
+                    </div>
+                    <div class="offer-desc-bl">
+                        <i class="fas fa-crown"></i>
+                        <div class="desc">
+                            <div class="title">Quality assurance</div>
+                            <div class="ltl-desc">Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="subscribe">
+        <div class="dop-bg">
+            <div class="container sub-inline">
+                <div class="sub-about bl">
+                    <div class="slider">
+                        <div class="slider-2">
+                            <input id="slide-1" type="radio" name="slides" checked>
+                            <section class="slided slide-one">
+                                <img src="img/about.png" alt="me">
+                                <div class="slide">
+                                    <div class="text">“Vesquis porttitor dui! viverra nunc mi,
+                                        a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</div>
+                                    <div class="name_1">Bin Burhan</div>
+                                    <div class="name_2"> Dhaka, Bd</div>
+                                    <header class="navigate">
+                                        <label for="slide-2"></label>
+                                        <label for="slide-1" class=" slide-active"></label>
+                                        <label for="slide-3"></label>
+                                    </header>
+                                </div>
+                            </section>
+                            <input id="slide-2" type="radio" name="slides">
+                            <section class="slided slide-two">
+                                <img src="img/about.png" alt="me">
+                                <div class="slide">
+                                    <div class="text">“Vesquis porttitor dui! viverra nunc mi,
+                                        a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</div>
+                                    <div class="name_1">Bin Burhan</div>
+                                    <div class="name_2"> Dhaka, Bd</div>
+                                    <header class="navigate">
+                                        <label for="slide-2" class=" slide-active"></label>
+                                        <label for="slide-1"></label>
+                                        <label for="slide-3"></label>
+                                    </header>
+                                </div>
+                            </section>
+                            <input id="slide-3" type="radio" name="slides">
+                            <section class="slided slide-three">
+                                <img src="img/about.png" alt="me">
+                                <div class="slide">
+                                    <div class="text">“Vesquis porttitor dui! viverra nunc mi,
+                                        a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</div>
+                                    <div class="name_1">Bin Burhan</div>
+                                    <div class="name_2"> Dhaka, Bd</div>
+
+                                    <header class="navigate">
+                                        <label for="slide-2"></label>
+                                        <label for="slide-1"></label>
+                                        <label for="slide-3" class=" slide-active"></label>
+                                    </header>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                    <!--<div class="slider">
+                        <figure>
+                            <div class="slide">
+                                <div class="text">“Vesquis porttitor dui! viverra nunc mi,
+                                    a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</div>
+                                <div class="name_1">Bin Burhan</div>
+                                <div class="name_2"> Dhaka, Bd</div>
+                            </div>
+
+                            <div class="slide">
+                                <div class="text">“Vesquis porttitor dui! viverra nunc mi,
+                                    a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</div>
+                                <div class="name_1">Bin Burhan</div>
+                                <div class="name_2"> Dhaka, Bd</div>
+                            </div>
+
+                            <div class="slide">
+                                <div class="text">“Vesquis porttitor dui! viverra nunc mi,
+                                    a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</div>
+                                <div class="name_1">Bin Burhan</div>
+                                <div class="name_2"> Dhaka, Bd</div>
+                            </div>
+
+                            <div class="slide">
+                                <div class="text">“Vesquis porttitor dui! viverra nunc mi,
+                                    a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</div>
+                                <div class="name_1">Bin Burhan</div>
+                                <div class="name_2"> Dhaka, Bd</div>
+                            </div>
+
+                            <div class="slide">
+                                <div class="text">“Vesquis porttitor dui! viverra nunc mi,
+                                    a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</div>
+                                <div class="name_1">Bin Burhan</div>
+                                <div class="name_2"> Dhaka, Bd</div>
+                            </div>
+                        </figure>
+	                </div>-->
+
+                    <!--
+                    <div class="about-bl__right">
+                        <div class="text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi,
+                        a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</div>
+                        <div class="name_1">Bin Burhan</div>
+                        <div class="name_2"> Dhaka, Bd</div>
+                    </div>
+                    -->
+                </div>
+                <div class="sub-email bl">
+                    <div class="subscribe-name">Subscribe</div>
+                    <div class="sub-desc">FOR OUR NEWLETTER AND PROMOTION</div>
+                    <form class="form-subscribe">
+                        <input type="email" placeholder="Enter Your Email" required>
+                        <button type="submit" value="Subscribe ">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container footer-flex">
+            <div class="ftr ftr-bl-about">
+                <div class="f-logo">
+                    <a href="#" class="logo"><img class="logo__img" src="img/logo.png" alt="logo">BRAN<span>D</span></a>
+                </div>
+                <div class="footer-text">
+                    <p>
+                        Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships.
+                    </p>
+                    <br><br>
+                    <p>Efficiently plagiarize 24/365 action items and focused infomediaries.
+                        Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.</p>
+                </div>
+            </div>
+            <div class="ftr footer__right">
+                <div class="ftr-bl">
+                    <h1 class="footer-title">Company</h1>
+                    <nav class="footer-menu">
+                        <ul>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Shop</a></li>
+                            <li><a href="">About</a></li>
+                            <li><a href="">How It Works</a></li>
+                            <li><a href="">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="ftr-bl">
+                    <h1 class="footer-title">INFORMATION</h1>
+                    <nav class="footer-menu">
+                        <ul>
+                            <li><a href="">Tearms & Condition</a></li>
+                            <li><a href="">Privacy Policy</a></li>
+                            <li><a href="">How to Buy</a></li>
+                            <li><a href="">How to Sell</a></li>
+                            <li><a href="">Promotion</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="ftr-bl">
+                    <h1 class="footer-title">SHOP CATEGORY</h1>
+                    <nav class="footer-menu">
+                        <ul>
+                            <li><a href="">Men</a></li>
+                            <li><a href="">Women</a></li>
+                            <li><a href="">Child</a></li>
+                            <li><a href="">Apparel</a></ li>
+                            <li><a href="">Brows All</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <footer class="rights-reserved">
+        <div class="container  footer-flex">
+            <div class="right__left">
+                &copy; 2019 Brand All Rights Reserved.
+            </div>
+            <div class="right__right">
+                <a href="#">
+                    <div class="social-icons">
+                        <i class="fab fa-facebook-f"></i>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="social-icons">
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="social-icons">
+                        <i class="fab fa-linkedin-in"></i>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="social-icons">
+                        <i class="fab fa-pinterest-p"></i>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="social-icons">
+                        <i class="fab fa-google-plus-g"></i>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="js/CartComp.js"></script>
+    <script src="js/ProducComp.js"></script>
+    <script src="js/FilterComp.js"></script>
+    <script src="js/ErrorComp.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
